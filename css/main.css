@@ -88,7 +88,8 @@ section{
 .brand {
     width: 170px;
     height: 85px;
-    margin: 0 60px 0 -15px;
+    margin-left: -15px;
+    margin-right: 60px;
 }
 
 .logo {
@@ -113,8 +114,7 @@ section{
 }
 
 .nav-list {
-
-    padding: 0;
+    padding-left: 0;
     width: 575px;
     margin-top: 10px;
 }
@@ -137,6 +137,16 @@ section{
     font-size: 18px;
 }
 
-.account * {
+.account a {
     font-size: 14px;
+}
+
+.profile-pic {
+    width: 60px;
+    height: 60px;
+}
+
+.profile-pic img {
+    border-radius: 100px;
+    max-width: 100%;
 }
