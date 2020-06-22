@@ -306,6 +306,8 @@ section{
 }
 
 footer {
+    
+    display: flex;
     flex-wrap: wrap;
     z-index: 0;
     min-height: 330px;
@@ -358,7 +360,7 @@ footer a:hover {
     width: 23px;
     height: 23px;
     background-position: center;
-    background-size: 23pc 23px;
+    background-size: 23px 23px;
 }
 
 .twitter {
@@ -377,13 +379,13 @@ footer a:hover {
     background-image: url('../img/pinterest.svg');
 }
 
-.newsletter, .link-header {
+.newsletter .link-header {
     font-size: 12px;
     font-weight: 400;
     margin-bottom: 5px;
 }
 
-.newsletter, .link-subheader {
+.newsletter .link-subheader {
     font-style: italic;
     font-style: 12px;
     font-weight: 400;
@@ -396,7 +398,7 @@ footer a:hover {
     margin-bottom: 10px;
 }
 
-.newslette button {
+.newsletter button {
     width: 150px;
     min-width: auto;
     text-transform: uppercase;
